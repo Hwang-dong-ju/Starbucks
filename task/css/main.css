@@ -276,7 +276,7 @@ header .badges .badge {
 /* VISUAL */
 .visual {
   margin-top: 120px;
-  background-image: url(../images/main.BG4.jpg);
+  background-image: url(../images/2023_spring2_promotion_bg_1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -288,28 +288,39 @@ header .badges .badge {
 
 .visual .title {
   position: absolute;
-  top: 200px;
-  left: -10px;
+  width: 19%;
+  left: -17%;
+  top: 37%;
 }
 
 .visual .title .btn {
   position: absolute;
-  top: 130px;
-  left: 120px;
+  top: 120px;
+  left: 115px;
 }
 
-.visual .drink1.fade-in {
-  position: absolute;
-  bottom: 25px;
-  right: -50px;
+.visual .fade-in {
   opacity: 0;
 }
 
-.visual .drink2.fade-in {
+.visual .drink1 {
   position: absolute;
   bottom: 75px;
-  right: 23%;
-  opacity: 0;
+  right: 159px;
+}
+
+.visual .drink2 {
+  position: absolute;
+  bottom: 25px;
+  right: -100px;
+  width: 33%;
+}
+
+.visual .drink3 {
+  position: absolute;
+  top: 17%;
+  left: 30%;
+  width: 33%;
 }
 
 /* NOTICE */
